@@ -1,57 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ice Cream Fundae</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header class="bg-warning text-center py-5">
-        <h1 class="display-4 fw-bold">Ice Cream Fundae</h1>
-        <p class="lead">Best frozen desserts in town.</p>
-        <a href="#menu" class="btn btn-dark btn-lg">See the menu</a>
+      <h1 class="display-4 fw-bold">Ice Cream Fundae</h1>
+      <p class="lead">Best frozen desserts in town.</p>
+      <a href="#menu" class="btn btn-dark btn-lg">See the menu</a>
     </header>
 
     <main class="container py-5">
-        <section id="menu">
-            <h2 class="mb-4">Menu</h2>
-            <div class="row g-4">
-                <!-- card 1 -->
-                <div class ="col-md-4">
-                    <div class = card h-100>
-                        <div class="card-body">
-                            <h3 class="card-title h5">Ice Cream Cone</h3>
-                            <p class="card-text">Creamy Ice cream in a crisp waffle cone.</p>
-                            <p class="fw-bold text-success">$2</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class ="col-md-4">
-                    <div class = card h-100>
-                        <div class="card-body">
-                            <h3 class="card-title h5">Ice Cream Sandwich</h3>
-                            <p class="card-text">Creamy ice cream between 2 soft cookies.</p>
-                            <p class="fw-bold text-success">$1.50</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- card 3 -->
-                <div class ="col-md-4">
-                    <div class = card h-100>
-                        <div class="card-body">
-                            <h3 class="card-title h5">Ice Cream Cake</h3>
-                            <p class="card-text">Layers of Creamy Ice cream and soft cake, topped with whipped cream.</p>
-                            <p class="fw-bold text-success">$6</p>
-                        </div>
-                    </div>
-                </div>
+      <section id="menu">
+        <h2 class="mb-4">Menu</h2>
+        <div class="row g-4">
+          <!-- card 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Ice Cream Cone</h3>
+                <p class="card-text">
+                  Creamy Ice cream in a crisp waffle cone.
+                </p>
+                <p class="fw-bold text-success">$2</p>
+              </div>
             </div>
-        </section>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Ice Cream Sandwich</h3>
+                <p class="card-text">
+                  Creamy ice cream between 2 soft cookies.
+                </p>
+                <p class="fw-bold text-success">$1.50</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Ice Cream Cake</h3>
+                <p class="card-text">
+                  Layers of Creamy Ice cream and soft cake, topped with whipped
+                  cream.
+                </p>
+                <p class="fw-bold text-success">$6</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Ice Cream Sundae</h3>
+                <p class="card-text">
+                  Classic ice cream Sundae with scoops of Ice cream, hot fudge
+                  and whipped cream.
+                </p>
+                <p class="fw-bold text-success">$4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" class="mt-5">
+        <h2 class="mb-4">Visit us</h2>
+        <div class="d-flex flex-column flex-md-row gap-3">
+          <div class="p-4 bg-light border flex-fill">
+            <h3 class="h5">Where</h3>
+            <p class="mb-0">190 Main Street, Leesville, LA</p>
+          </div>
+          <div class="p-4 bg-light border flex-fill">
+            <h3 class="h5">When</h3>
+            <p class="mb-0">Tuesday to Sunday, 12 to 9</p>
+          </div>
+        </div>
+      </section>
     </main>
-<footer class="bg-dark text-white text-center py-3">
-    <p class="mb-0">© 2026 Ice Cream Fundae - Chill with some sweet cold treats!</p>
-</footer>
-</body>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">
+        © 2026 Ice Cream Fundae - Chill with some sweet cold treats!
+      </p>
+    </footer>
+  </body>
 </html>
